@@ -1,4 +1,4 @@
-* {
+.b-light-gray {
     background-color: #f8f9fa;
 }
 
@@ -12,6 +12,10 @@
 
 .c-orange{
     color: #ff8f00
+}
+
+.c-white{
+    color: white;
 }
 
 .b-gray{
@@ -28,7 +32,6 @@
 
 header .mobile-logo{
     width: 3.5rem;
-
 }
 
 header{
@@ -36,11 +39,8 @@ header{
 }
 
 .search{
-
     padding: .8rem;
 }
-
-
 
 textarea{
     border: none;
@@ -49,13 +49,13 @@ textarea{
 }
 
 main{
-    height: 95.3vh;
+    height: 92vh;
     background-color: black;
 }
 
 main > nav{
     width: 15vw; 
     height: 100%;
-    background-color: blue;
+    background-color: #051e34; 
 }
 

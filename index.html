@@ -14,8 +14,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="py-2 d-flex align-items-center justify-content-between w-100">
-        <img class="mobile-logo" src="./img/mobile-logo.png" alt="">
+    <header class="py-2 d-flex align-items-center justify-content-between w-100 b-light-gray">
+        <div class="b-white px-1">
+            <img class="mobile-logo b-white" src="./img/mobile-logo.png" alt="">
+        </div>
         <div class="search d-flex align-items-centerb-gray overflow-hidden w-100 b-white h-100">
             <i class="fa-solid fa-search b-gray px-2 d-flex align-items-center rounded-start-2"></i>
             <textarea class="b-gray rounded-end-2" id="searchInput" rows="1" placeholder="Prova a cercare: Lezioni di Laravel"></textarea>
@@ -26,14 +28,21 @@
     </header>
 
     <main>
-        <nav>
-
+        <nav class="d-flex flex-column justify-content-between py-4">
+            <section class="d-flex flex-column justify-content-between align-items-center">
+                <i class="fa-solid fa-house c-white mb-3 fs-4"></i>
+                <i class="fa-solid fa-chart-simple c-white mb-3 fs-4"></i>
+                <i class="fa-solid fa-signal c-white fs-4"></i>
+            </section>
+            <section class="d-flex flex-column align-items-center">
+                <i class="fa-solid fa-gear c-white fs-4"></i>
+            </section>
         </nav>
 
         <div class="dashboard">
-            <header>
+            <section class="info">
 
-            </header>
+            </section>
             <section class="main-container">
                 <article></article>
                 <article></article>
