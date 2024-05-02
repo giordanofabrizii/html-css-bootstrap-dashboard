@@ -1,0 +1,22 @@
+.b{
+    background-color: black;
+}
+
+.my-border{
+    border: 1px solid red;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%% */
+/* ? CONTENT */
+/* %%%%%%%%%%%%%%%%%%%%%% */
+
+main{
+    height: 95.3vh;
+}
+
+main > nav{
+    width: 15vw; 
+    height: 100%;
+    background-color: blue;
+}
+
