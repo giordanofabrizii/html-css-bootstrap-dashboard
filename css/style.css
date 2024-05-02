@@ -48,6 +48,11 @@ header{
     height: 4.5rem;
 }
 
+main>nav{
+    background-image: url(../img/sidebar-bg.png);
+    background-size: cover;
+}
+
 .search{
     padding: .8rem;
 }
