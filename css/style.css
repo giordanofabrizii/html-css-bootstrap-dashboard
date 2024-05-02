@@ -76,17 +76,35 @@ main > nav > section > div > p,
     border: 2px solid #dddddd;
 }
 
-.main-container  article .title{
+.main-container  article .title p{
     font-size: 1.5rem;
+    margin: .5rem 0;
 }
 
 .main-container  article .content{
-    min-height: 16rem;
+    min-height: 5rem;
 }
 
 img[alt="class-avatar"]{
     width: 2rem;
     height: 2rem;
+}
+
+.date{
+    font-size: .9rem;
+}
+
+.accordion button {
+    height: 3rem;
+}
+
+.accordion-item{
+    border: none;
+}
+
+.accordion .accordion-item:nth-child(2){
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
 }
 
 /* %%%%%%%%%%%%%%%%%%%%%% */
