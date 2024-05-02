@@ -1,6 +1,10 @@
 /* %%%%%%%%%%%%%%%%%%%%%% */
 /* ? UTILITIES */
 /* %%%%%%%%%%%%%%%%%%%%%% */
+:root{
+    --aside-width: 6rem
+}
+
 
 * {
     font-family: "Roboto", sans-serif;
@@ -53,13 +57,18 @@ main{
 }
 
 main > nav{
-    width: 15vw; 
+    width: var(--aside-width); 
     height: 100%;
     background-color: #051e34; 
 }
 
 main > div{
-    width: 85vw;
+    width: calc(100vw - var(--aside-width));
+}
+
+aside > article > section{
+    border: 1px solid red;
+    height: 17rem;
 }
 
 /* %%%%%%%%%%%%%%%%%%%%%% */
@@ -76,10 +85,6 @@ main > div{
 
 .b-light-gray {
     background-color: #f8f9fa;
-}
-
-.my-border{
-    border: 1px solid red;
 }
 
 .b-gray{
