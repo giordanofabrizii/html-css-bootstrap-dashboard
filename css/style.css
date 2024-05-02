@@ -102,14 +102,19 @@ img[alt="class-avatar"]{
     border: none;
 }
 
-.todo-container{
+.todo-container,
+.stats{
     border: 1px solid #dddddd;
-    
+
 }
 
 .accordion .accordion-item:nth-child(2),
 .todo-item:nth-child(2){
     border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+
+.stats > *:not(:last-child){
     border-bottom: 1px solid #dddddd;
 }
 
