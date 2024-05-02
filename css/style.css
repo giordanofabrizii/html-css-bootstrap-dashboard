@@ -1,3 +1,7 @@
+* {
+    background-color: #f8f9fa;
+}
+
 .b{
     background-color: black;
 }
@@ -6,12 +10,47 @@
     border: 1px solid red;
 }
 
+.c-orange{
+    color: #ff8f00
+}
+
+.b-gray{
+    background-color: #e5e5e5;
+}
+
+.b-white{
+    background-color: white;
+}
+
 /* %%%%%%%%%%%%%%%%%%%%%% */
 /* ? CONTENT */
 /* %%%%%%%%%%%%%%%%%%%%%% */
 
+header .mobile-logo{
+    width: 3.5rem;
+
+}
+
+header{
+    height: 4.5rem;
+}
+
+.search{
+
+    padding: .8rem;
+}
+
+
+
+textarea{
+    border: none;
+    resize: none;
+    width: 95%;
+}
+
 main{
     height: 95.3vh;
+    background-color: black;
 }
 
 main > nav{
