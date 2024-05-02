@@ -81,9 +81,13 @@ main > nav > section > div > p,
 }
 
 .main-container  article .content{
-    height: 16rem;
+    min-height: 16rem;
 }
 
+img[alt="class-avatar"]{
+    width: 2rem;
+    height: 2rem;
+}
 
 /* %%%%%%%%%%%%%%%%%%%%%% */
 /* ? COLORS */
@@ -102,6 +106,10 @@ main > nav > section > div > p,
     color: white;
 }
 
+.c-gray{
+    color: #6c757d;
+}
+
 .b-light-gray {
     background-color: #f8f9fa;
 }
@@ -118,6 +126,7 @@ main > nav > section > div > p,
     background-color: #1b72e8;
 }
 
+
 button.outline-white{
     border-color: white;
     color: white;
@@ -126,6 +135,39 @@ button.outline-white{
     text-align: center;
     padding-bottom: .5rem;
 }
+
+button.outline-gray{
+    border-color: #6c757d;
+    border-radius: .3rem;
+    height: 2rem;
+}
+
+span.stato p{
+    font-size: .8rem;
+    border-radius: .5rem;
+    color: white;
+}
+
+span.stato.done p{
+    background-color: #1a8755;
+    width: 3rem;
+}
+
+span.stato.progress {
+    background-color: #ffbe00;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+span.stato.failed p {
+    background-color: #db3343;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%% */
+/* ? MEDIA */
+/* %%%%%%%%%%%%%%%%%%%%%% */
 
 @media screen and (min-width: 992px) {
     .dashboard .info .row .col-12:first-child {
