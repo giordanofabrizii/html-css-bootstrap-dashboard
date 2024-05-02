@@ -64,11 +64,7 @@ main > nav{
 
 main > div{
     width: calc(100vw - var(--aside-width));
-}
-
-aside > article > section{
-    border: 1px solid red;
-    height: 17rem;
+    overflow: scroll;
 }
 
 main > nav > section > div > p,
@@ -76,9 +72,27 @@ main > nav > section > div > p,
     display: none;
 }
 
+.main-container article section{
+    border: 2px solid #dddddd;
+}
+
+.main-container  article .title{
+    font-size: 1.5rem;
+}
+
+.main-container  article .content{
+    height: 16rem;
+}
+
+
 /* %%%%%%%%%%%%%%%%%%%%%% */
 /* ? COLORS */
 /* %%%%%%%%%%%%%%%%%%%%%% */
+
+.my-border{
+    border: 1px solid red;
+    height: 1rem;
+}
 
 .c-orange{
     color: #ff8f00
