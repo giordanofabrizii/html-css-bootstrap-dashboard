@@ -1,29 +1,29 @@
-.b-light-gray {
-    background-color: #f8f9fa;
+/* %%%%%%%%%%%%%%%%%%%%%% */
+/* ? UTILITIES */
+/* %%%%%%%%%%%%%%%%%%%%%% */
+
+* {
+    font-family: "Roboto", sans-serif;
 }
 
-.b{
-    background-color: black;
+button {
+    border: none;
+    background-color: transparent;
+    aspect-ratio: 1 / 1;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.my-border{
-    border: 1px solid red;
-}
-
-.c-orange{
-    color: #ff8f00
-}
-
-.c-white{
-    color: white;
-}
-
-.b-gray{
-    background-color: #e5e5e5;
-}
-
-.b-white{
-    background-color: white;
+span.tag{
+    background-color: #165bba;
+    border-radius: 3rem;
+    font-size: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    height: 2rem;
+    line-height: 2rem;
 }
 
 /* %%%%%%%%%%%%%%%%%%%%%% */
@@ -49,8 +49,7 @@ textarea{
 }
 
 main{
-    height: 92vh;
-    background-color: black;
+    height: calc(100vh - 4.5rem);
 }
 
 main > nav{
@@ -59,3 +58,53 @@ main > nav{
     background-color: #051e34; 
 }
 
+main > div{
+    width: 85vw;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%% */
+/* ? COLORS */
+/* %%%%%%%%%%%%%%%%%%%%%% */
+
+.c-orange{
+    color: #ff8f00
+}
+
+.c-white{
+    color: white;
+}
+
+.b-light-gray {
+    background-color: #f8f9fa;
+}
+
+.my-border{
+    border: 1px solid red;
+}
+
+.b-gray{
+    background-color: #e5e5e5;
+}
+
+.b-white{
+    background-color: white;
+}
+
+.b-light-blue{
+    background-color: #1b72e8;
+}
+
+button.outline-white{
+    border-color: white;
+    color: white;
+    height: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: .5rem;
+}
+
+@media screen and (min-width: 992px) {
+    .dashboard .info .row .col-12:first-child {
+        order: 1;
+    }
+}
