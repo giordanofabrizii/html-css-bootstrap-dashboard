@@ -38,6 +38,12 @@ header .mobile-logo{
     width: 3.5rem;
 }
 
+header .logo{
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
 header{
     height: 4.5rem;
 }
