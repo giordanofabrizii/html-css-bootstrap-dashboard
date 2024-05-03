@@ -5,7 +5,6 @@
     --aside-width: 6rem
 }
 
-
 * {
     font-family: "Roboto", sans-serif;
 }
@@ -96,15 +95,11 @@ main > nav > section > div > p,
     min-height: 5rem;
 }
 
-img[alt="class-avatar"]{
+img[alt="class avatar"]{
     width: 2rem;
     height: 2rem;
+    vertical-align: middle;
 }
-
-.date{
-    font-size: .9rem;
-}
-
 .accordion button {
     height: 3rem;
 }
@@ -187,26 +182,30 @@ button.outline-gray{
 }
 
 span.stato p{
+    display: inline;
+    padding: 0 .7rem;
     font-size: .8rem;
-    border-radius: .5rem;
-    color: white;
 }
 
-span.stato.done p{
+span.done p{
     background-color: #1a8755;
-    width: 3rem;
+}
+span.done p::before{
+    content: "Done";
 }
 
-span.stato.progress {
+span.my-progress p{
     background-color: #ffbe00;
-    padding-left: .5rem;
-    padding-right: .5rem;
+}
+span.my-progress p::before{
+content: "Progress";
 }
 
-span.stato.failed p {
+span.failed p{
     background-color: #db3343;
-    padding-left: .5rem;
-    padding-right: .5rem;
+}
+span.failed p::before{
+    content: "Failed";
 }
 
 /* %%%%%%%%%%%%%%%%%%%%%% */
