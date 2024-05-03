@@ -66,7 +66,140 @@
                 <div class="row">
                     <div class="col-12 col-lg-4 d-flex c-white align-items-center h-25 mb-4" >
                         <h2 class="me-2 fw-normal">Nuovo Studente</h2>
-                        <button class="rounded-2 outline-white">+</button>
+                        <button class="outline-white p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">+</button> 
+                        <div class="offcanvas offcanvas-end show" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuvo studente</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body container-fluid">
+                                <div class="row mb-3">
+                                    <div class="col-12 col-lg-6">
+                                        <label for="basic-url" class="form-label">Cognome</label>
+                                        <input type="text" class="form-control px-0" aria-label="Cognome">
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <label for="basic-url" class="form-label">Nome</label>
+                                        <input type="text" class="form-control px-0" aria-label="Nome">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <div class="col-12 col-lg-6">
+                                        <label for="basic-url" class="form-label">Password</label>
+                                        <input type="text" class="form-control px-0" aria-label="Password">
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <label for="basic-url" class="form-label">Email</label>
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text" id="basic-addon1">@</span>
+                                            <input type="text" class="form-control" aria-label="email" aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <div class="col-12 col-lg-6">
+                                        <label for="basic-url" class="form-label">Password</label>
+                                        <input type="text" class="form-control px-0" aria-label="Password">
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <label for="basic-url" class="form-label">Indirizzo Email</label>
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text" id="basic-addon1">@</span>
+                                            <input type="text" class="form-control" aria-label="email" aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <div class="col-12">
+                                        <label for="basic-url" class="form-label">Indirizzo</label>
+                                        <input type="text" class="form-control px-0" aria-label="Indirizzo">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <div class="col-12 col-lg-2">
+                                        <label for="basic-url" class="form-label">CAP</label>
+                                        <input type="text" class="form-control px-0" aria-label="cap">
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <label for="basic-url" class="form-label">Citt&agrave;</label>
+                                        <input type="text" class="form-control px-0" aria-label="Citta">
+                                    </div>
+                                    <div class="col-12 col-lg-4">
+                                        <label for="basic-url" class="form-label">Stato</label>
+                                        <select class="form-select" id="inputGroupSelect01">
+                                            <option selected>Scegli...</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <div class="col-12">
+                                        <div class="input-group mb-3">
+                                            <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <div class="col-12">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Seleziona per proseguire
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                                <div class="row mb-3">
+                                    <div class="col-12">
+                                        <button type="button" class="btn btn-primary h-50">Salva</button>
+                                        <button type="button" class="btn btn-warning h-50">Svuota</button>
+                                    </div>
+                                </div>
+                                <!-- <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1">@</span>
+                                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                                
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text" id="basic-addon2">@example.com</span>
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <label for="basic-url" class="form-label">Your vanity URL</label>
+                                    <div class="input-group">
+                                    <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                                    </div>
+                                    <div class="form-text" id="basic-addon4">Example help text goes outside the input group.</div>
+                                </div>
+                                
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">$</span>
+                                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                                    <span class="input-group-text">.00</span>
+                                </div>
+                                
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                                    <span class="input-group-text">@</span>
+                                    <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+                                </div>
+                                
+                                <div class="input-group">
+                                    <span class="input-group-text">With textarea</span>
+                                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                                </div> -->
+                            </div>
+                        </div>
                     </div>
                     <div class="col-12 col-lg-4 c-white mb-3">
                         <div class="c-white d-flex align-items-center ">

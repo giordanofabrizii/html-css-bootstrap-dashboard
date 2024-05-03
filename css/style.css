@@ -129,6 +129,10 @@ img[alt="class-avatar"]{
     border-bottom: 1px solid #dddddd;
 }
 
+#offcanvasExample{
+    width: 100vw;
+    }
+
 /* %%%%%%%%%%%%%%%%%%%%%% */
 /* ? COLORS */
 /* %%%%%%%%%%%%%%%%%%%%%% */
@@ -232,5 +236,9 @@ span.stato.failed p {
 
     .xl-only{
         display: flex;
+    }
+
+    #offcanvasExample{
+    width: 60rem;
     }
 }
