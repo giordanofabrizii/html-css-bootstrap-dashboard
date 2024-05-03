@@ -242,3 +242,11 @@ span.stato.failed p {
     width: 60rem;
     }
 }
+
+/* %%%%%%%%%%%%%%%%%%%%%% */
+/* ? HOVER */
+/* %%%%%%%%%%%%%%%%%%%%%% */
+
+main > nav > section > *:hover{
+    background-color: rgba(255,255,255,0.3);
+}
